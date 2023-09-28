@@ -1,0 +1,11 @@
+{
+  "name": "formdb",
+  "version": "0.0.1",
+  "description": "database for nekoLand form",
+  "main": "file.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abylay",
+  "license": "ISC"
+}

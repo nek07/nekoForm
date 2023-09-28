@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-image: linear-gradient(
+        115deg,
+        rgba(58, 58, 158, 0.8),
+        rgba(136, 136, 206, 0.7)
+      ),
+      url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 18px;
+
+  }
+  
+  p, h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  }
+  h1 {
+    margin-top: 50px;
+    font-weight: 300 ;
+  }
+  p {
+    font-style: italic;
+    opacity: 70%;
+    font-weight: 100;
+    
+  }
+  
+  div {
+    width: 60%;
+    margin: auto;
+    height: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: rgba(27,27,49,0.7);
+    
+    padding: 30px;
+    color: white;
+    border-radius: 8px;
+    font-family: Poppins;
+    min-width: 50%;
+    
+  }
+  label {
+    margin-left: 1.5px;
+  }
+  
+  #name, #email, #number, #dropdown {
+
+    border-radius: 4px;
+    height: 40px;
+    padding: 0px 2px;
+    margin-left: 0;
+    width: 100%;
+    margin-top: 7px;
+  }
+  #dropdown {
+    margin-bottom: 30px;
+    font-family: inherit;
+  }
+
+  #submit{
+    display: block;
+    width: 100%;
+    height: 35px;
+    background-color: #37af65;
+    opacity: 80%;
+    color: white;
+    margin-top: 75px;
+    border-radius: 4px;
+  }
+
+  .cat {
+    width: unset;
+    vertical-align: middle;
+    margin: 0 0.5em 0 0;
+
+  }
+  input {
+    margin-bottom: 2em;
+  }
+
+
+
+  input[type="radio"]{
+    width: unset;
+    vertical-align: middle;
+    margin: 0 0.5em 0 0;
+  }
+
+  textarea {
+    width: 100%;
+    height: 90px;
+    margin-top: 5px;
+    border-radius: 4px;
+  }
+  .checkbox {
+    display: block;
+    margin: 0.5rem 0;
+   
+  }
+
+  span {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block
+  }

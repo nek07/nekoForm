@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="project.css">
+  </head>
+  <body>
+    <h1 id="title">nekoLand Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <div>
+    <form id="survey-form">
+      <label id="name-label" for="name">Name <input id="name" type="text" required placeholder="Enter your name"></input></label>
+
+      <label id="email-label" for="email">Email <input id="email" type="email" required placeholder="Enter your email"></input>
+       
+    
+      <label id="number-label" for="number">Age <input id="number" type="number" min="18" max="100" placeholder="Enter your age"></input></label>
+      
+      <span> What type of cat food do you prefer to feed cats?</span>
+      <select id="dropdown">
+        <option>Select cat food</option>
+        <option>Purina</option>
+        <option>Whiskas</option>
+        <option>VetDiet</option>
+        <option>Nature's Logic</option>
+        <option>Royal Canin</option>
+        <option>Merrick</option>
+        <option>Farmina</option>
+      </select>
+      <span >Do you have allergy on cats?</span>
+      <label class="checkbox"><input class="radio" type="radio" value="have allergy" name="allergy">Yes</input></label>
+      <label class="checkbox"><input class="radio" type="radio" value="have allergy" name="allergy">No</input></label>
+        <label class="checkbox"><input class="radio" type="radio" value="have allergy" name="allergy">Not sure</input></label>
+      <span >Your cat's breed:</span>
+      <label class="checkbox" for="cat"><input class="cat" type="checkbox" value="cat1">Bengal cat</input></label>
+      <label class="checkbox" for="cat"><input class="cat" type="checkbox" value="cat2">Maine Coon</input></label>
+      <label class="checkbox" for="cat"><input class="cat" type="checkbox" value="cat3">Sphynx</input></label>
+      <label class="checkbox" for="cat"><input class="cat" type="checkbox" value="cat4">Siamese</input></label>
+      <label class="checkbox" for="cat"><input class="cat" type="checkbox" value="cat5">British Shorthair</input></label>
+      <span >Interesting information about your cat:</span>
+      <textarea placeholder="Enter your comment here..."></textarea>
+      <button type="submit" id="submit">Submit</button>
+</form>
+    </div>
+
+
+    </body>
+</html>
